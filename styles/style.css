@@ -120,10 +120,11 @@ ul{
 
 #artist {
     display: flex;
-    justify-content: space-evenly;
+    position: relative;
+    justify-content: space-between;
     background-color: #00B172;
     margin: 0 5% 0 5%;
-    padding: 2%;
+    padding: 2.5% 5%;
     align-items: center;
 }
 
@@ -161,6 +162,8 @@ ul{
 
 #background-logo {
     position: absolute;    
+    left: 47.5%;
+    right: 47.5%;
 }
 
 #background-logo img{
