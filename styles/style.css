@@ -120,14 +120,19 @@ ul{
 
 #artist {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #00B172;
-    margin: 0 400px 0 400px;
+    margin: 0 5% 0 5%;
+    padding: 2%;
     align-items: center;
 }
 
 #artist-main {
     color: #FFF;
+}
+
+#artist-main header{
+    padding: 30px 0;
 }
 
 #artist-main h2{
@@ -136,6 +141,7 @@ ul{
 
 #artist-main h3{
     padding: 10px 0;
+    font-size: 1.5em;
 }
 
 .white-border {
@@ -153,10 +159,11 @@ ul{
     padding: 60px 0;
 }
 
-#background-logo img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#background-logo {
+    position: absolute;    
+}
+
+#background-logo img{
     height: 100px;
 }
 
