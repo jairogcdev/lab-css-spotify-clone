@@ -6,3 +6,160 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+#navigation img {
+    display: flex;
+    float: left;
+    height: 62px;
+    margin: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#navigation li {
+    float: right;
+    list-style-type: none;
+    padding: 30px;
+}
+
+#navigation {
+    padding-bottom: 1px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #FFF;
+}
+
+#main {
+    display: flex;
+    background-image: url("../images/landing.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+    left: 0;
+    right: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul{
+    margin: 0;
+}
+
+#main h1 {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    font-size: 6em;
+}
+
+#main p {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+ #features .cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 50px 50px;
+    flex-flow: wrap;
+}
+
+#features .cards img {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#features .card p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+} 
+
+#features h3 {
+    color: #00B172;
+    text-align: center;
+    font-size: 2em;
+}
+
+#features h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+#features header {
+    display: flex;
+    justify-content: center;
+}
+  
+.green-border {
+    border-bottom: 3px solid #00B172; 
+    display: inline;
+}
+
+#artist {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00B172;
+    margin: 0 400px 0 400px;
+    align-items: center;
+}
+
+#artist-main {
+    color: #FFF;
+}
+
+#artist-main h2{
+    font-size: 2.5em;
+}
+
+#artist-main h3{
+    padding: 10px 0;
+}
+
+.white-border {
+    border-bottom: 3px solid #FFF;
+    display: inline;
+}
+
+#artist-aside {
+    display: flex;
+    justify-content: flex-end;
+    height: 600px;
+}
+
+#artist-aside img {
+    padding: 60px 0;
+}
+
+#background-logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.brand-features {
+    width: 240px;
+}
